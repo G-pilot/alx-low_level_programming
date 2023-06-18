@@ -1,2 +1,11 @@
 #!/bin/bash
-echo '#include <stdio.h>' > program.c && echo 'int main() { puts("Programming is like building a multilingual puzzle"); return 0; }' >> program.c && gcc program.c -o program && ./program; rm program.c program
+#include <stdio.h>
+/**
+ * main - main block
+ * Return: 0
+ */
+int main(void)
+{
+puts("\"Programming is like building a multilingual puzzle");
+return (0);
+}
