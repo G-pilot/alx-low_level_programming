@@ -4,7 +4,7 @@
  * main - Entry point of the program
  *
  * Description:
- *   This program prints the lowercase alphabet in reverse, 
+ *   This program prints the lowercase alphabet in reverse,
  *   followed by a new line.
  *   It utilizes the putchar function to print individual characters.
  *
