@@ -4,7 +4,7 @@
  * main - Entry point of the program
  *
  * Description:
- *   This program prints all possible different combinations of 
+ *   This program prints all possible different combinations of
  *   three digits in ascending order, separated by ", ".
  *   It considers 012, 120, 102, 021, 201, and 210 as the same
  *   combination and only prints the smallest combination.
