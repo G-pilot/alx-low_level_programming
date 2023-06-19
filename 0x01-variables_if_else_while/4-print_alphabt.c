@@ -4,8 +4,9 @@
  * main - Entry point of the program
  *
  * Description:
- *   This program prints the alphabet in lowercase, excluding the letters 'q' and 'e',
- *   followed by a new line. It utilizes the putchar function to print individual characters.
+ *   This program prints the alphabet in lowercase, excluding the letters
+ *   'q' and 'e',followed by a new line.
+ *   It utilizes the putchar function to print individual characters.
  *
  * Return:
  *   Always returns 0 to indicate successful execution.
