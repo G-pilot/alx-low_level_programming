@@ -5,7 +5,7 @@
  *
  * Description:
  *   This program prints all the numbers of base 16 (hexadecimal) in lowercase,
- *   followed by a new line. It utilizes the putchar function to print individual characters.
+ *   followed by a new line. It uses the putchar function to print characters.
  *   It uses three calls to putchar to print the numbers.
  *
  * Return:
