@@ -1,32 +1,21 @@
-#include <stdio.h>
-int main(void)
-{
-printf("Hello, world!\n");
-return (0);
-}
 #include "main.h"
 /**
- * leet - transform to leet
- * @s: char array string type
- * Return: s transformed
- */
-char *leet(char *s)
+  * print_number - print numbers chars
+  * @n: integer params
+  * Return: 0
+ **/
+void print_number(int n)
 {
-	int i, ii;
-	char s1[] = "aeotl";
-	char S1[] = "AEOTL";
-	char s2[] = "43071";
-
-	for (i = 0; s[i] != '\0'; i++)
+	unsigned int n1;
+	n1 = n;
+	if (n < 0)
 	{
-		for (ii = 0; ii < 5; ii++)
-		{
-			if (s[i] == s1[ii] || s[i] == S1[ii])
-			{
-				s[i] = s2[ii];
-				break;
-			}
-		}
+		_putchar('-');
+		n1 = -n;
 	}
-	return (s);
+	if (n1 / 10 != 0)
+	{
+		print_number(n1 / 10);
+	}
+	_putchar((n1 % 10) + '0');
 }
