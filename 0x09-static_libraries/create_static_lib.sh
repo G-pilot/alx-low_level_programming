@@ -1,7 +1,4 @@
 #!/bin/bash
-
-# Compile the .c files into object files
-gcc -c *.c
-
-# Create the static library
-ar rcs liball.a *.o
+gcc -wall -pedanti -Werror -Wextra -c *.c
+ar -rc liball.a*o
+ranlib.liball.a
