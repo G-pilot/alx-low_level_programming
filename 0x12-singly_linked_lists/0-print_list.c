@@ -1,8 +1,9 @@
 #include <stdio.h>
 #include "lists.h"
 
-/*
+/**
  * print_list - prints all the elements
+ *@h: is a string.
  * Return: the number of nodes printed
  */
 size_t print_list(const list_t *h)
