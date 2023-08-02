@@ -2,10 +2,11 @@
 #include "lists.h"
 
 /**
+ * add-list_len: adiing to list
  * This function returns the number of elements in a linked list_t list.
  *@h: size of memory
  *
- *function declearation for list_len
+ *Declearation: for list_len
  * Return: ()
  */
 
