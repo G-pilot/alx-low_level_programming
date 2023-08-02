@@ -5,7 +5,8 @@
  * @needle: pointer to char
  * Return: 0
  */
-char *_strstr(char *haystack, char *needle)
+char *_strstr(char *haystack, char *needle);
+int main(void)`
 {
 char *result = haystack, *fneedle = needle;
 while (*haystack)
