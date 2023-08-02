@@ -1,6 +1,19 @@
 #ifndef LISTS_H
 #define LISTS_H
 
+#include <stddef.h>
+
+/**
+ * struct list_s - singly linked list
+ * @str: string - (malloc'ed string)
+ * @len: length of the string
+ * @next: points to the next node
+ *
+ * Description: singly linked list node structure
+ * for alx
+ */
+
+
 typedef struct list_s
 {
 	char *str;
